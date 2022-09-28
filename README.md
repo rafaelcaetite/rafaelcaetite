@@ -1,4 +1,4 @@
-## Opa, tudo certo? <img src="https://emoji.gg/assets/emoji/6441-happycatclapping.gif" width="24"/>
+## <img src="https://emoji.gg/assets/emoji/6441-happycatclapping.gif" width="24"/>
 
 <div>
   <a href="https://github.com/rafaelcaetite">
