@@ -40,9 +40,9 @@ A predictive ML model structured to calculate victory probabilities in LoL match
 
 ### 📫 Let's Connect
 
-* **Portfolio:** [rafaelcaetite.vercel.app](https://rafaelcaetite.vercel.app) *(Replace with your real link)*
-* **LinkedIn:** [Your LinkedIn URL](https://linkedin.com/in/rafaelcaetite)
-* **Email:** [your-email@example.com](mailto:rafael.cancado@ufv.br)
+* **Portfolio:** [rafaelcaetite.vercel.app](https://rafaelcaetite.vercel.app)
+* **LinkedIn:** [linkedin.com/in/rafaelcaetite](https://linkedin.com/in/rafaelcaetite)
+* **Email:** [rafael.cancado@ufv.br](mailto:rafael.cancado@ufv.br)
 
 ---
 ⭐️ *"The tools that define the future are being built today."*
