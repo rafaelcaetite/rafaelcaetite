@@ -19,7 +19,7 @@ I am passionate about turning complex data into solutions that generate real-wor
 ### 💻 Technologies & Tools
 
 * **Languages:** Python, JavaScript
-* **Data Science & ML:** Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, SciPy, Matplotlib
+* **Data Science & ML:** Pandas, NumPy, Scikit-learn, SciPy, Matplotlib
 * **Web & Deploy:** React, Vite, TailwindCSS 
 * **Environments:** Google Colab, Jupyter, Git/GitHub
 
