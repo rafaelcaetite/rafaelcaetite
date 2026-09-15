@@ -1,4 +1,4 @@
-# Rafael Cançado
+# Rafael Caetité
 
 **Computer Science Undergraduate @ UFV | Machine Learning & Statistical Modeling**
 
