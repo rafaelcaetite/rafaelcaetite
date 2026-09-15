@@ -1,48 +1,49 @@
-# Hi, I'm Rafael! 👋
+# Rafael Cançado
 
-**Computer Science Student @ UFV | Focused on Machine Learning, Data Science, and Applied AI**
+**Computer Science Undergraduate @ UFV | Machine Learning & Statistical Modeling**
 
-I am passionate about turning complex data into solutions that generate real-world impact, whether in healthcare, agriculture, or esports. I am currently in my 6th period of Computer Science at the Federal University of Viçosa (UFV) and work as an Undergraduate Researcher, building climate-tech tools driven by artificial intelligence.
+Undergraduate researcher focusing on applied machine learning, statistical validation, and agroclimatic predictive modeling using reanalysis datasets (ERA5/Copernicus). Practical experience in end-to-end ML pipelines, high-dimensional feature selection, and reproducible research workflows.
 
----
-
-### 🚀 About Me
-
-* 🎓 **Education:** B.S. in Computer Science (6th period) at UFV.
-* 🔬 **Research:** Developing high-fidelity agroclimatic tools using ERA5/Copernicus data to predict climate patterns in the Brazilian Cerrado and Amazon biomes.
-* ✍️ **Academic Work:** Author of the systematic review *"Modeling the Rainy Season: A Systematic Review of Machine Learning Approaches for Monsoon Onset and Cessation"*.
-* 💡 **Technical Focus:** End-to-end Machine Learning pipelines, dimensionality reduction, rigorous statistical validation (OOT Validation, ANOVA), and strict Data Leakage prevention.
-* 🏋️‍♂️ **Off-topic:** When I'm not coding, you can find me at the gym lifting weights or analyzing the League of Legends meta.
+[Portfolio](https://www.rafaelcaetite.dev/) • [LinkedIn](https://linkedin.com/in/rafaelcaetite) • [Email](mailto:rafael.cancado@ufv.br)
 
 ---
 
-### 💻 Technologies & Tools
+## Overview
 
-* **Languages:** Python, JavaScript
-* **Data Science & ML:** Pandas, NumPy, Scikit-learn, SciPy, Matplotlib
-* **Web & Deploy:** React, Vite, TailwindCSS 
-* **Environments:** Google Colab, Jupyter, Git/GitHub
-
----
-
-### 📂 Featured Projects
-
-#### 🌦️ PluvioMT: Agroclimatic Decision Instrument
-A statistical and machine learning instrument developed for the agricultural sector in Mato Grosso. It utilizes PLS Regression and Bayesian Optimization to scientifically predict the onset and demise of the rainy season based on ocean teleconnections and atmospheric dynamics. It features an interactive dashboard built with React and Vite for real-time climate telemetry.
-
-#### 🧬 Precision Healthcare: Breast Cancer Mortality Prediction
-A supervised machine learning pipeline utilizing the high-dimensional METABRIC dataset (clinical and genomic). This project successfully reduced 693 original features to 25 through a hybrid selection approach and deployed an optimized weighted Ensemble model to balance recall and precision for clinical screening.
-
-#### 🎮 Esports Analytics: League of Legends Matchup Predictor
-A predictive ML model structured to calculate victory probabilities in LoL matches. It features detailed data extraction and processing focused on analyzing team compositions and individual player performance metrics.
+- **Education:** B.S. in Computer Science, Federal University of Viçosa (UFV) — 6th period.
+- **Research:** Modeling agroclimatic dynamics across Brazilian biomes (Cerrado and Amazon) using high-resolution spatial reanalysis data.
+- **Academic Publication:** First author of *[Modeling Rainfall Seasonality: A Systematic Review of Machine Learning Approaches for Onset and Demise](https://rafaelcaetite.github.io/Modeling-Rainfall-Seasonality/)* (PRISMA 2020 protocol; manuscript under review).
+- **Core Focus:** Supervised learning, time-series/spatial modeling, dimensionality reduction, out-of-time (OOT) validation, hypothesis testing (ANOVA), and data leakage prevention.
 
 ---
 
-### 📫 Let's Connect
+## Technical Skills
 
-* **Portfolio:** [rafaelcaetite.dev](https://www.rafaelcaetite.dev/)
-* **LinkedIn:** [linkedin.com/in/rafaelcaetite](https://linkedin.com/in/rafaelcaetite)
-* **Email:** [rafael.cancado@ufv.br](mailto:rafael.cancado@ufv.br)
+- **Data Science & ML:** Python, Scikit-learn, SciPy, NumPy, Pandas, Matplotlib
+- **Statistical Methods:** Partial Least Squares (PLS), Bayesian Optimization, ANOVA, Feature Selection, Cross-Validation Design
+- **Web & Interface:** JavaScript, React, Vite, TailwindCSS
+- **Tools & Environments:** Git, GitHub, Linux/Bash, Jupyter, Google Colab
 
 ---
-⭐️ *"The tools that define the future are being built today."*
+
+## Selected Projects
+
+### [PluvioMT — Agroclimatic Decision Support System](https://github.com/rafaelcaetite)
+Predictive instrument developed for agricultural planning and climate risk assessment in Mato Grosso, Brazil.
+- **Modeling:** Partial Least Squares (PLS) Regression paired with Bayesian Optimization to predict rainfall onset and demise using atmospheric dynamics and oceanic teleconnections.
+- **Interface:** Real-time climate telemetry dashboard built with React and Vite.
+- **Stack:** Python, Scikit-learn, SciPy, React, Vite, TailwindCSS.
+
+### [METABRIC — Genomic & Clinical Mortality Prediction](https://github.com/rafaelcaetite)
+Supervised classification pipeline applied to high-dimensional biomedical data (clinical and genomic profiles).
+- **Feature Engineering:** Reduced the search space from 693 original features to 25 using a hybrid selection approach to mitigate the curse of dimensionality.
+- **Modeling:** Weighted ensemble classifier tuned to optimize screening recall while controlling precision degradation.
+- **Stack:** Python, Scikit-learn, Pandas, NumPy.
+
+---
+
+## Contact
+
+- **Personal Site:** [rafaelcaetite.dev](https://www.rafaelcaetite.dev/)
+- **LinkedIn:** [linkedin.com/in/rafaelcaetite](https://linkedin.com/in/rafaelcaetite)
+- **Institutional Email:** [rafael.cancado@ufv.br](mailto:rafael.cancado@ufv.br)
