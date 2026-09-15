@@ -2,7 +2,7 @@
 
 **Computer Science Undergraduate @ UFV | Machine Learning • Data Science • SQL**
 
-Undergraduate researcher with hands-on experience building end-to-end Machine Learning pipelines, statistical models, and data analytics solutions. Focused on feature engineering, robust model evaluation, and software quality (automated testing, zero-leakage pipelines, and reproducible code).
+Undergraduate researcher with hands-on experience building end-to-end Machine Learning pipelines, statistical models, and data analytics solutions. Focused on feature engineering, algorithmic optimization, robust model evaluation, and software quality (automated testing, zero-leakage pipelines, and reproducible code).
 
 [Portfolio](https://www.rafaelcaetite.dev/) • [LinkedIn](https://linkedin.com/in/rafaelcaetite) • [Email](mailto:rafael.cancado@ufv.br)
 
@@ -11,18 +11,18 @@ Undergraduate researcher with hands-on experience building end-to-end Machine Le
 ## Overview
 
 - **Education:** B.S. in Computer Science, Federal University of Viçosa (UFV) — 6th period.
-- **Core Competencies:** Machine Learning Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), SQL Data Profiling, Model Calibration & Evaluation (ROC-AUC, Precision/Recall), Unit & Integration Testing (`pytest`).
+- **Core Competencies:** Machine Learning Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), SQL Data Profiling, Model Calibration & Evaluation (ROC-AUC, Precision/Recall), Unit & Integration Testing (`pytest`, `vitest`).
 - **Research Background:** First author of *[Modeling Rainfall Seasonality: A Systematic Review of Machine Learning Approaches for Onset and Demise](https://rafaelcaetite.github.io/Modeling-Rainfall-Seasonality/)* (PRISMA 2020 protocol; manuscript under review); predictive modeling using spatial reanalysis data (ERA5/Copernicus).
 
 ---
 
 ## Technical Skills
 
-- **Languages:** Python, SQL, JavaScript
+- **Languages:** Python, SQL, TypeScript, JavaScript
 - **Machine Learning & Data Science:** Scikit-learn, XGBoost, Pandas, NumPy, SciPy, Matplotlib, Seaborn
 - **Data Engineering & Databases:** PostgreSQL, Data Profiling, CTEs, Window Functions, Data Cleaning & Preprocessing
 - **Modeling & Analytics:** Supervised Classification & Regression, Feature Engineering, Probability Calibration (Isotonic), Cross-Validation, Out-of-Time (OOT) Testing, Leakage Prevention
-- **Testing & Tools:** Pytest, Git, GitHub, Docker, Linux/Bash, Jupyter, Google Colab
+- **Testing & Tooling:** Pytest, Vitest, Git, GitHub, Docker, Linux/Bash, Web Workers, Jupyter
 
 ---
 
@@ -34,6 +34,13 @@ Production-ready machine learning pipeline for credit scoring and probability-of
 - **Modeling & Calibration:** Trained an XGBoost classifier paired with post-hoc Isotonic Probability Calibration (`CalibratedClassifierCV`) to ensure well-calibrated decision bands without class distortion.
 - **Software Quality & Testing:** 77 automated `pytest` tests enforcing performance gates (`ROC-AUC >= 0.80`, P95 scoring latency < 10ms), full reproducible runs (`metadata.json`, SHA256 hashes), and modular PostgreSQL/CSV data adapters.
 - **Stack:** Python, Scikit-learn, XGBoost, SQL (PostgreSQL), Pandas, NumPy, Pytest.
+
+### [Reference Manager — Algorithmic Deduplication & LLM Tooling](https://github.com/rafaelcaetite/Reference-Manager)
+High-performance bibliographic processing tool engineered to automate duplicate detection and batch partitioning for systematic reviews (PRISMA 2020 protocol).
+- **Algorithms & Optimization:** Implemented fuzzy string matching (Gestalt pattern matching / Ratcliff-Obershelp) with inverted indices ($O(L)$ average search) and length-bound pruning to eliminate redundant distance computations.
+- **Parser & Concurrency:** Zero-dependency recursive-descent BibTeX/LaTeX tokenizer; non-blocking client-side processing offloaded to headless **Web Workers** for high-volume record comparison.
+- **Security & Quality:** Sanitized against CSV Formula Injection (CWE-1236) and covered with automated unit tests via **Vitest**.
+- **Stack:** TypeScript, React, Vite, Web Workers, TailwindCSS, Vitest.
 
 ### [PluvioMT — Agroclimatic Decision Support System](https://github.com/rafaelcaetite)
 Predictive instrument developed for agricultural planning and climate risk assessment in Mato Grosso, Brazil.
