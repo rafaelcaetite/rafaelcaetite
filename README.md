@@ -1,8 +1,8 @@
 # Rafael Caetité
 
-**Computer Science Undergraduate @ UFV | Machine Learning • Data Science • SQL**
+**Computer Science Undergraduate @ UFV | Software Engineering • Machine Learning • Data Systems**
 
-Undergraduate researcher with hands-on experience building end-to-end Machine Learning pipelines, statistical models, and data analytics solutions. Focused on feature engineering, algorithmic optimization, robust model evaluation, and software quality (automated testing, zero-leakage pipelines, and reproducible code).
+Undergraduate researcher and software developer with hands-on experience designing end-to-end Machine Learning pipelines, modular backend systems, and data-intensive applications. Focused on software architecture (Hexagonal / Clean Architecture, DDD), low-latency inference, algorithmic optimization, and software quality (automated CI/CD, unit/integration testing, and zero-leakage data pipelines).
 
 [Portfolio](https://www.rafaelcaetite.dev/) • [LinkedIn](https://linkedin.com/in/rafaelcaetite) • [Email](mailto:rafael.cancado@ufv.br)
 
@@ -11,7 +11,7 @@ Undergraduate researcher with hands-on experience building end-to-end Machine Le
 ## Overview
 
 - **Education:** B.S. in Computer Science, Federal University of Viçosa (UFV) — 6th period.
-- **Core Competencies:** Machine Learning Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), SQL Data Profiling, Model Calibration & Evaluation (ROC-AUC, Precision/Recall), Unit & Integration Testing (`pytest`, `vitest`).
+- **Core Competencies:** Machine Learning Engineering (MLE), Software Architecture (Hexagonal / Ports & Adapters), High-Performance / Low-Latency Systems, SQL Data Profiling & Modeling, Feature Engineering, Model Calibration & Evaluation, Automated CI/CD & Testing (`pytest`, `vitest`).
 - **Research Background:** First author of *[Modeling Rainfall Seasonality: A Systematic Review of Machine Learning Approaches for Onset and Demise](https://rafaelcaetite.github.io/Modeling-Rainfall-Seasonality/)* (PRISMA 2020 protocol; manuscript under review); predictive modeling using spatial reanalysis data (ERA5/Copernicus).
 
 ---
@@ -19,21 +19,22 @@ Undergraduate researcher with hands-on experience building end-to-end Machine Le
 ## Technical Skills
 
 - **Languages:** Python, SQL, TypeScript, JavaScript
-- **Machine Learning & Data Science:** Scikit-learn, XGBoost, Pandas, NumPy, SciPy, Matplotlib, Seaborn
-- **Data Engineering & Databases:** PostgreSQL, Data Profiling, CTEs, Window Functions, Data Cleaning & Preprocessing
-- **Modeling & Analytics:** Supervised Classification & Regression, Feature Engineering, Probability Calibration (Isotonic), Cross-Validation, Out-of-Time (OOT) Testing, Leakage Prevention
-- **Testing & Tooling:** Pytest, Vitest, Git, GitHub, Docker, Linux/Bash, Web Workers, Jupyter
+- **Software Engineering & Architecture:** Hexagonal Architecture (Ports & Adapters), Clean Architecture, Domain-Driven Design (DDD) principles, Object-Oriented Design, Modular Systems
+- **Machine Learning & MLOps:** Scikit-learn, XGBoost, TreeSHAP, Pandas, NumPy, SciPy, Probability Calibration (Isotonic), Model Governance, Reproducibility, Leakage Prevention
+- **Data Engineering & Databases:** PostgreSQL, Docker Compose, Data Modeling, Schema Validation, CTEs, Window Functions, Query Optimization
+- **DevOps, CI/CD & Tooling:** GitHub Actions (Matrix CI), Pytest, Vitest, Docker, Git, Linux/Bash, Latency Benchmarking (P95 < 10ms)
 
 ---
 
 ## Selected Projects
 
 ### [Credit Risk & Default Prediction Pipeline](https://github.com/rafaelcaetite/credit-risk-ml)
-Production-ready machine learning pipeline for credit scoring and probability-of-default estimation (*Give Me Some Credit* dataset).
-- **Data & SQL Analytics:** Advanced data profiling in SQL (CTEs, `NTILE`, aggregations) to detect sentinel codes and validate feature signals; strictly separated train-only imputation and outlier capping (p99).
-- **Modeling & Calibration:** Trained an XGBoost classifier paired with post-hoc Isotonic Probability Calibration (`CalibratedClassifierCV`) to ensure well-calibrated decision bands without class distortion.
-- **Software Quality & Testing:** 77 automated `pytest` tests enforcing performance gates (`ROC-AUC >= 0.80`, P95 scoring latency < 10ms), full reproducible runs (`metadata.json`, SHA256 hashes), and modular PostgreSQL/CSV data adapters.
-- **Stack:** Python, Scikit-learn, XGBoost, SQL (PostgreSQL), Pandas, NumPy, Pytest.
+Production-grade credit scoring and probability-of-default (PD) engine built with **Hexagonal Architecture (Ports & Adapters)** and strict domain-driven decoupling.
+- **Software Architecture & Design Patterns:** Decoupled core domain logic from infrastructure via ports (`DataLoaderPort`, `RiskModelPort`, `FeaturePipelinePort`, `MetricsEvaluatorPort`); swappable adapters for PostgreSQL and CSV data sources with strict schema contract validation.
+- **Regulatory Explainability & Low Latency:** Real-time inference ($p_{95} < 10\text{ms}$) calculating Adverse Action Reasons via native C++ TreeSHAP (`pred_contribs`) in XGBoost, adhering to regulatory compliance standards (BACEN, LGPD art. 20, ECOA).
+- **Modeling, Calibration & Data Systems:** XGBoost classifier paired with post-hoc Isotonic Calibration (`FrozenEstimator`) ensuring calibrated probabilities without class distortion; reproducible training with zero-leakage transforms and automated metadata provenance tracking.
+- **DevOps, CI/CD & Testing:** 80 automated unit, integration, and latency tests (`pytest`) enforced via **GitHub Actions** multi-version CI matrix (Python 3.10–3.12); containerized development PostgreSQL database with Docker Compose.
+- **Stack:** Python, Scikit-learn, XGBoost, PostgreSQL, Docker Compose, GitHub Actions, Pandas, NumPy, Pytest.
 
 ### [Reference Manager — Algorithmic Deduplication & LLM Tooling](https://github.com/rafaelcaetite/Reference-Manager)
 High-performance bibliographic processing tool engineered to automate duplicate detection and batch partitioning for systematic reviews (PRISMA 2020 protocol).
