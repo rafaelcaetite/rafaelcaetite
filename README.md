@@ -12,7 +12,7 @@ Undergraduate researcher and software developer with hands-on experience designi
 
 - **Education:** B.S. in Computer Science, Federal University of Viçosa (UFV) — Expected Jan 2028.
 - **Core Competencies:** Machine Learning Engineering (MLE), Software Architecture (Hexagonal / Ports & Adapters), High-Performance / Low-Latency Systems, SQL Data Profiling & Modeling, Feature Engineering, Model Calibration & Evaluation, Automated CI/CD & Testing (`pytest`, `vitest`).
-- **Research Background:** First author of 1 scientific article and co-author of 2; hands-on experience in predictive modeling, statistical learning, and spatial reanalysis data (ERA5/Copernicus).
+- **Research Background:** First author of 1 scientific article and co-author of 2, with hands-on experience in predictive modeling, statistical learning, spatial data manipulation and RAG techniques.
 
 ---
 
