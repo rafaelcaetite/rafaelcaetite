@@ -43,17 +43,6 @@ High-performance bibliographic processing tool engineered to automate duplicate 
 - **Security & Quality:** Sanitized against CSV Formula Injection (CWE-1236) and covered with automated unit tests via **Vitest**.
 - **Stack:** TypeScript, React, Vite, Web Workers, TailwindCSS, Vitest.
 
-### [PluvioMT — Agroclimatic Decision Support System](https://github.com/rafaelcaetite)
-Predictive instrument developed for agricultural planning and climate risk assessment in Mato Grosso, Brazil.
-- **Modeling:** Partial Least Squares (PLS) Regression paired with Bayesian Optimization to predict rainfall onset and demise using atmospheric dynamics and oceanic teleconnections.
-- **Interface & Full-Stack:** Interactive telemetry dashboard for spatio-temporal data visualization built with React, Vite, and TailwindCSS.
-- **Stack:** Python, Scikit-learn, SciPy, React, Vite, TailwindCSS.
-
-### [METABRIC — Genomic & Clinical Mortality Prediction](https://github.com/rafaelcaetite)
-Supervised classification pipeline applied to high-dimensional biomedical data (clinical and genomic profiles).
-- **Feature Engineering:** Reduced the search space from 693 original features to 25 using a hybrid selection approach to mitigate the curse of dimensionality.
-- **Modeling:** Weighted ensemble classifier tuned to optimize screening recall while controlling precision degradation.
-- **Stack:** Python, Scikit-learn, Pandas, NumPy.
 
 ---
 
