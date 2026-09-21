@@ -12,7 +12,7 @@ Undergraduate researcher and software developer with hands-on experience designi
 
 - **Education:** B.S. in Computer Science, Federal University of Viçosa (UFV) — 6th period.
 - **Core Competencies:** Machine Learning Engineering (MLE), Software Architecture (Hexagonal / Ports & Adapters), High-Performance / Low-Latency Systems, SQL Data Profiling & Modeling, Feature Engineering, Model Calibration & Evaluation, Automated CI/CD & Testing (`pytest`, `vitest`).
-- **Research Background:** First author of *[Modeling Rainfall Seasonality: A Systematic Review of Machine Learning Approaches for Onset and Demise](https://rafaelcaetite.github.io/Modeling-Rainfall-Seasonality/)* (PRISMA 2020 protocol; manuscript under review); predictive modeling using spatial reanalysis data (ERA5/Copernicus).
+- **Research Background:** First author of 1 scientific article and co-author of 2; hands-on experience in predictive modeling, statistical learning, and spatial reanalysis data (ERA5/Copernicus).
 
 ---
 
