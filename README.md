@@ -1,6 +1,6 @@
 # Rafael Caetité
 
-**Computer Science Undergraduate @ UFV | Software Engineering • Machine Learning • Data Systems**
+**Computer Science Undergraduate @ UFV | Software Engineering • Machine Learning • Data Engineering**
 
 Undergraduate researcher and software developer with hands-on experience designing end-to-end Machine Learning pipelines, modular backend systems, and data-intensive applications. Focused on software architecture (Hexagonal / Clean Architecture, DDD), low-latency inference, algorithmic optimization, and software quality (automated CI/CD, unit/integration testing, and zero-leakage data pipelines).
 
