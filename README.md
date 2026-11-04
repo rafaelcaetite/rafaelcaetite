@@ -9,7 +9,7 @@ Computer Science student at UFV, graduating in January 2028. I build systems wit
 **Talon Tech** is my web studio for local businesses, run by me and a set of AI agents. Between late October and early November 2026 I rebuilt how it operates:
 
 - **[Caça-Cliente](https://github.com/rafaelcaetite/caca-cliente)** finds businesses with no website through the Google Places API and scores them. It has mapped 991 businesses in 3 cities so far. Open source.
-- **Outreach pipeline** (private): 12 n8n workflows on a VPS with PostgreSQL, Redis and a WhatsApp gateway. An LLM classifies each reply into one of seven intents with validated JSON output. Stop requests are caught by code before the model is called, and a person takes over when the lead shows interest. The workflows are generated from versioned code and covered by 65 tests.
+- **Outreach pipeline** (private): 12 n8n workflows on a VPS with PostgreSQL, Redis and a WhatsApp gateway. An LLM classifies each reply into one of seven intents with validated JSON output. A rule in code checks for stop requests before the model is called, with the model as a second layer, and a person takes over when the lead shows interest. The workflows are generated from versioned code and covered by 65 tests.
 - **Site factory** (private): Caça-Cliente launches a Claude Code agent through [Orca](https://github.com/stablyai/orca) in a folder holding only verified client data. A QA script must pass, three read-only reviewers check facts, design and code, and I approve before anything is sent.
 
 I also offer this kind of automation to clients: outreach pipelines, WhatsApp bots and internal tools.
